@@ -36,7 +36,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="w-[70%] inline absolute bottom-[2rem] left-1/2 -translate-x-1/2 h-[15rem] ">
+        <div className="w-[70%] inline absolute bottom-[5rem] left-1/2 -translate-x-1/2 h-[15rem] ">
           {theme === "dark" ? (
             <Image
               src={dashboard_dark}

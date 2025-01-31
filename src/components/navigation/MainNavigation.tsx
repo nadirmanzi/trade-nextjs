@@ -19,7 +19,7 @@ export default function MainNavigation() {
       </Link>
 
       <div className="absolute left-1/2 -translate-x-1/2 group space-x-6 flex items-center justify-evenly bg-navigation-background border border-navigation-border rounded-full p-1">
-        <div className="flex items-center justify-center space-x-2 group-hover:space-x-0 transition-all duration-200">
+        <div className="flex items-center justify-center space-x-2 transition-all duration-200">
           <MainNavigationLink href="/" title="Home" />
           <MainNavigationLink href="/market" title="Market overview" />
           <MainNavigationLink href="/resources" title="Resources" />
